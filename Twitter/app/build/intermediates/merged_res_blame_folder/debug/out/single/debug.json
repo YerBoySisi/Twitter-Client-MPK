@@ -8,8 +8,16 @@
         "source": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/layout/activity_login.xml"
     },
     {
+        "merged": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/intermediates/res/merged/debug/layout_item_tweet.xml.flat",
+        "source": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/layout/item_tweet.xml"
+    },
+    {
         "merged": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
         "source": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/intermediates/res/merged/debug/layout_activity_timeline.xml.flat",
+        "source": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/layout/activity_timeline.xml"
     },
     {
         "merged": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
@@ -18,6 +26,10 @@
     {
         "merged": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
         "source": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/xml/network_security_config.xml"
     },
     {
         "merged": "/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/intermediates/res/merged/debug/menu_login.xml.flat",

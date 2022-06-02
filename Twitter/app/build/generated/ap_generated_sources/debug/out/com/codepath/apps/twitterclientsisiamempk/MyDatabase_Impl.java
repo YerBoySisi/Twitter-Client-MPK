@@ -3,11 +3,17 @@ package com.codepath.apps.twitterclientsisiamempk;
 import androidx.room.DatabaseConfiguration;
 import androidx.room.InvalidationTracker;
 import androidx.room.RoomOpenHelper;
+import androidx.room.RoomOpenHelper.Delegate;
+import androidx.room.RoomOpenHelper.ValidationResult;
 import androidx.room.util.DBUtil;
 import androidx.room.util.TableInfo;
+import androidx.room.util.TableInfo.Column;
+import androidx.room.util.TableInfo.ForeignKey;
+import androidx.room.util.TableInfo.Index;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 import androidx.sqlite.db.SupportSQLiteOpenHelper;
-
+import androidx.sqlite.db.SupportSQLiteOpenHelper.Callback;
+import androidx.sqlite.db.SupportSQLiteOpenHelper.Configuration;
 import com.codepath.apps.twitterclientsisiamempk.models.SampleModelDao;
 import com.codepath.apps.twitterclientsisiamempk.models.SampleModelDao_Impl;
 import java.lang.Class;
@@ -83,7 +89,7 @@ public final class MyDatabase_Impl extends MyDatabase {
         final TableInfo _infoSampleModel = new TableInfo("SampleModel", _columnsSampleModel, _foreignKeysSampleModel, _indicesSampleModel);
         final TableInfo _existingSampleModel = TableInfo.read(_db, "SampleModel");
         if (! _infoSampleModel.equals(_existingSampleModel)) {
-          return new RoomOpenHelper.ValidationResult(false, "SampleModel(com.codepath.apps.restclienttemplate.models.SampleModel).\n"
+          return new RoomOpenHelper.ValidationResult(false, "SampleModel(com.codepath.apps.twitterclientsisiamempk.models.SampleModel).\n"
                   + " Expected:\n" + _infoSampleModel + "\n"
                   + " Found:\n" + _existingSampleModel);
         }

@@ -1,15 +1,24 @@
-com/codepath/apps/restclienttemplate/RestClient.java
- com.codepath.apps.restclienttemplate.RestClient
-com/codepath/apps/restclienttemplate/LoginActivity.java
- com.codepath.apps.restclienttemplate.LoginActivity
- com.codepath.apps.restclienttemplate.LoginActivity$1
-com/codepath/apps/restclienttemplate/models/SampleModel.java
- com.codepath.apps.restclienttemplate.models.SampleModel
-com/codepath/apps/restclienttemplate/BuildConfig.java
- com.codepath.apps.restclienttemplate.BuildConfig
-com/codepath/apps/restclienttemplate/MyDatabase.java
- com.codepath.apps.restclienttemplate.MyDatabase
-com/codepath/apps/restclienttemplate/RestApplication.java
- com.codepath.apps.restclienttemplate.RestApplication
-com/codepath/apps/restclienttemplate/models/SampleModelDao.java
- com.codepath.apps.restclienttemplate.models.SampleModelDao
+com/codepath/apps/twitterclientsisiamempk/models/SampleModelDao.java
+ com.codepath.apps.twitterclientsisiamempk.models.SampleModelDao
+com/codepath/apps/twitterclientsisiamempk/TwitterApp.java
+ com.codepath.apps.twitterclientsisiamempk.TwitterApp
+com/codepath/apps/twitterclientsisiamempk/models/Tweet.java
+ com.codepath.apps.twitterclientsisiamempk.models.Tweet
+com/codepath/apps/twitterclientsisiamempk/models/User.java
+ com.codepath.apps.twitterclientsisiamempk.models.User
+com/codepath/apps/twitterclientsisiamempk/MyDatabase.java
+ com.codepath.apps.twitterclientsisiamempk.MyDatabase
+com/codepath/apps/twitterclientsisiamempk/models/SampleModel.java
+ com.codepath.apps.twitterclientsisiamempk.models.SampleModel
+com/codepath/apps/twitterclientsisiamempk/BuildConfig.java
+ com.codepath.apps.twitterclientsisiamempk.BuildConfig
+com/codepath/apps/twitterclientsisiamempk/TwitterClient.java
+ com.codepath.apps.twitterclientsisiamempk.TwitterClient
+com/codepath/apps/twitterclientsisiamempk/TimelineActivity.java
+ com.codepath.apps.twitterclientsisiamempk.TimelineActivity
+ com.codepath.apps.twitterclientsisiamempk.TimelineActivity$1
+com/codepath/apps/twitterclientsisiamempk/TweetsAdapter.java
+ com.codepath.apps.twitterclientsisiamempk.TweetsAdapter
+ com.codepath.apps.twitterclientsisiamempk.TweetsAdapter$ViewHolder
+com/codepath/apps/twitterclientsisiamempk/LoginActivity.java
+ com.codepath.apps.twitterclientsisiamempk.LoginActivity
