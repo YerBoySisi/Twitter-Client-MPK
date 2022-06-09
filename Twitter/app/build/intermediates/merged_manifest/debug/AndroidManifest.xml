@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.codepath.apps.twitterclientsisiamempk.TwitterApp"
+        android:name="com.sisiame.apps.twitterclientsisiamempk.TwitterApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -23,12 +23,11 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.codepath.apps.twitterclientsisiamempk.TimelineActivity"
+            android:name="com.sisiame.apps.twitterclientsisiamempk.TimelineActivity"
             android:exported="false" />
         <activity
-            android:name="com.codepath.apps.twitterclientsisiamempk.LoginActivity"
-            android:exported="true"
-            android:theme="@style/AppTheme" >
+            android:name="com.sisiame.apps.twitterclientsisiamempk.LoginActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

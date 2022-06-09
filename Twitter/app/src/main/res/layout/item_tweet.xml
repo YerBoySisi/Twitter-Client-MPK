@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="16dp"
-    android:layout_marginEnd="16dp">
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp">
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -19,6 +21,7 @@
         android:id="@+id/details"
         android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
@@ -31,44 +34,142 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/tvScreenName"
+                android:id="@+id/tvName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:ellipsize="end"
                 android:text="Username"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tvTwitterHandle"
+                android:id="@+id/tvHandle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="username"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                android:layout_marginStart="4dp"
+                android:ellipsize="end"
+                android:maxLength="20"
+                android:text=".@username"
+                android:textColor="@color/gray_dk" />
 
             <TextView
                 android:id="@+id/dot"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
                 android:gravity="center"
-                android:paddingStart="6dp"
-                android:paddingEnd="6dp"
-                android:text="-"
-                android:textAlignment="gravity" />
+                android:text="\u2022"
+                android:textAlignment="gravity"
+                android:textColor="@color/gray_dk"
+                android:textSize="5sp" />
 
             <TextView
                 android:id="@+id/tvCreatedAt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:ellipsize="end"
+                android:text="time"
+                android:textColor="@color/gray_dk" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/tvBody"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autoLink="all"
             android:ellipsize="end"
+            android:lineSpacingExtra="4sp"
             android:text="This is the body of the tweet."
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/details"
+        app:layout_constraintStart_toStartOf="@+id/details"
+        app:layout_constraintTop_toBottomOf="@+id/details">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivComment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_reply"
+                app:tint="@color/gray_dk" />
+
+            <TextView
+                android:id="@+id/tvComments"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:gravity="center_vertical"
+                android:text="999"
+                android:textAlignment="gravity"
+                android:textColor="@color/gray_dk"
+                android:textSize="13sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivRetweet"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_vector_retweet_stroke"
+                app:tint="@color/gray_dk" />
+
+            <TextView
+                android:id="@+id/tvRetweets"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:gravity="center_vertical"
+                android:text="999"
+                android:textAlignment="gravity"
+                android:textColor="@color/gray_dk"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivLike"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_vector_heart_stroke"
+                app:tint="@color/gray_dk" />
+
+            <TextView
+                android:id="@+id/tvLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:gravity="center_vertical"
+                android:text="999"
+                android:textAlignment="gravity"
+                android:textColor="@color/gray_dk"
+                android:textSize="13sp" />
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

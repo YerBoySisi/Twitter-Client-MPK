@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_timeline.xml" value="0.5704071044921876" />
-        <entry key="app/src/main/res/layout/item_tweet.xml" value="0.761160682570533" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.32125549316406254" />
+        <entry key="app/src/main/res/layout/activity_timeline.xml" value="0.38844992396343186" />
+        <entry key="app/src/main/res/layout/item_tweet.xml" value="0.6547314188482994" />
+        <entry key="app/src/main/res/menu/login.xml" value="0.2125" />
         <entry key="app/src/main/res/xml/network_security_config.xml" value="0.23125" />
       </map>
     </option>

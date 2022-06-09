@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">SimpleTweet</string>
+    <string name="app_name">Twitter Client</string>
     <string name="login_label">Log in</string>
     <string name="intent_scheme">oauth</string>
     <string name="intent_host">cprest</string>
-
+    <string name="twitter_handle">%s%s</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="compose">Compose a new tweet</string>
+    <string name="connect_to_twitter">Connect to Twitter</string>
+    <string name="sign_in_to_twitter">Sign in to Twitter</string>
 </resources>
