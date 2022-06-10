@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="blue">#1DA1F2</color>
+    <color name="twitter_blue">#1D9BF0</color>
     <color name="black">#14171A</color>
     <color name="gray_dk">#657786</color>
     <color name="gray_lt">#AAB8C2</color>
     <color name="gray_el">#E1E8ED</color>
     <color name="white">#F5F8FA</color>
+    <color name="red">#F91880</color>
 </resources>

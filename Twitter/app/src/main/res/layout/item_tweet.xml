@@ -83,6 +83,64 @@
             android:text="This is the body of the tweet."
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
+        <androidx.cardview.widget.CardView
+            android:id="@+id/containerMedia"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@android:drawable/divider_horizontal_bright"
+                    android:dividerPadding="4dp">
+
+                    <ImageView
+                        android:id="@+id/ivMedia"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_weight="1"
+                        android:scaleType="centerInside"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <LinearLayout
+                        android:id="@+id/containerExtendedMedia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="2dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/ivMedia2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scaleType="centerInside"
+                            tools:srcCompat="@tools:sample/avatars" />
+
+                        <ImageView
+                            android:id="@+id/ivMedia3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerInside"
+                            android:visibility="gone"
+                            tools:srcCompat="@tools:sample/avatars" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 
     <LinearLayout
@@ -96,6 +154,7 @@
         app:layout_constraintTop_toBottomOf="@+id/details">
 
         <LinearLayout
+            android:id="@+id/containerComment"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -114,6 +173,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="4dp"
                 android:gravity="center_vertical"
+                android:labelFor="@id/ivComment"
                 android:text="999"
                 android:textAlignment="gravity"
                 android:textColor="@color/gray_dk"
@@ -122,6 +182,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/containerRetweet"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -140,6 +201,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="4dp"
                 android:gravity="center_vertical"
+                android:labelFor="@id/ivRetweet"
                 android:text="999"
                 android:textAlignment="gravity"
                 android:textColor="@color/gray_dk"
@@ -147,10 +209,14 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/containerLikes"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            tools:ignore="TouchTargetSizeCheck">
 
             <ImageView
                 android:id="@+id/ivLike"
@@ -165,6 +231,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="4dp"
                 android:gravity="center_vertical"
+                android:labelFor="@id/ivLike"
                 android:text="999"
                 android:textAlignment="gravity"
                 android:textColor="@color/gray_dk"

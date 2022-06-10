@@ -300,7 +300,104 @@
     </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.swiperefreshlayout:swiperefreshlayout:1.1.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/521444b6a5154194256731002a7b784b/swiperefreshlayout-1.1.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.swiperefreshlayout:swiperefreshlayout:1.1.0" from-dependency="true" generated-set="androidx.swiperefreshlayout:swiperefreshlayout:1.1.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/521444b6a5154194256731002a7b784b/swiperefreshlayout-1.1.0/res"><file path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/521444b6a5154194256731002a7b784b/swiperefreshlayout-1.1.0/res/values/values.xml" qualifiers=""><declare-styleable name="SwipeRefreshLayout">
         
         <attr format="color" name="swipeRefreshLayoutProgressSpinnerBackgroundColor"/>
-    </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.github.bumptech.glide:glide:4.11.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/1f6004bd08e328db94a4df3854ac2f3d/jetified-glide-4.11.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.github.bumptech.glide:glide:4.11.0" from-dependency="true" generated-set="com.github.bumptech.glide:glide:4.11.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/1f6004bd08e328db94a4df3854ac2f3d/jetified-glide-4.11.0/res"><file path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/1f6004bd08e328db94a4df3854ac2f3d/jetified-glide-4.11.0/res/values/values.xml" qualifiers=""><item name="glide_custom_view_target_tag" type="id"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.appcompat:appcompat:1.3.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.appcompat:appcompat:1.3.0" from-dependency="true" generated-set="androidx.appcompat:appcompat:1.3.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/res"><file path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/res/values-v17/values-v17.xml" qualifiers="v17"><style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
+    </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.gridlayout:gridlayout:1.0.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/ed0b8edddae11bc53698249c8a34fe13/gridlayout-1.0.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.gridlayout:gridlayout:1.0.0" from-dependency="true" generated-set="androidx.gridlayout:gridlayout:1.0.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/ed0b8edddae11bc53698249c8a34fe13/gridlayout-1.0.0/res"><file path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/ed0b8edddae11bc53698249c8a34fe13/gridlayout-1.0.0/res/values/values.xml" qualifiers=""><declare-styleable name="GridLayout">
+
+        
+
+
+        
+        <attr name="orientation">
+
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="rowCount"/>
+        
+        <attr format="integer" name="columnCount"/>
+        
+        <attr format="boolean" name="useDefaultMargins"/>
+        
+        <attr name="alignmentMode">
+
+            
+            <enum name="alignBounds" value="0"/>
+            
+            <enum name="alignMargins" value="1"/>
+        </attr>
+        
+        <attr format="boolean" name="rowOrderPreserved"/>
+        
+        <attr format="boolean" name="columnOrderPreserved"/>
+    </declare-styleable><declare-styleable name="GridLayout_Layout">
+
+        
+
+
+        
+
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        
+        <attr name="android:layout_margin"/>
+        
+        <attr name="android:layout_marginLeft"/>
+        
+        <attr name="android:layout_marginTop"/>
+        
+        <attr name="android:layout_marginRight"/>
+        
+        <attr name="android:layout_marginBottom"/>
+
+        
+
+        
+        <attr format="integer" name="layout_row"/>
+        
+        <attr format="integer" min="1" name="layout_rowSpan"/>
+        
+        <attr format="float" name="layout_rowWeight"/>
+        
+        <attr format="integer" name="layout_column"/>
+        
+        <attr format="integer" min="1" name="layout_columnSpan"/>
+        
+        <attr format="float" name="layout_columnWeight"/>
+        
+        <attr name="layout_gravity">
+
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+    </declare-styleable><dimen name="default_gap">8dip</dimen></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.github.bumptech.glide:glide:4.11.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/1f6004bd08e328db94a4df3854ac2f3d/jetified-glide-4.11.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.github.bumptech.glide:glide:4.11.0" from-dependency="true" generated-set="com.github.bumptech.glide:glide:4.11.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/1f6004bd08e328db94a4df3854ac2f3d/jetified-glide-4.11.0/res"><file path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/1f6004bd08e328db94a4df3854ac2f3d/jetified-glide-4.11.0/res/values/values.xml" qualifiers=""><item name="glide_custom_view_target_tag" type="id"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.appcompat:appcompat:1.3.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.appcompat:appcompat:1.3.0" from-dependency="true" generated-set="androidx.appcompat:appcompat:1.3.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/res"><file path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/res/values-v17/values-v17.xml" qualifiers="v17"><style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
         <item name="android:textAlignment">viewStart</item>
     </style><style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="android:Widget">
         <item name="android:layout_gravity">center_vertical|start</item>
@@ -7682,11 +7779,11 @@
   </plurals><string name="bottomsheet_action_expand_halfway">Proširite do pola</string><string name="character_counter_content_description">Uneti znakovi: %1$d od %2$d</string><string name="character_counter_overflowed_content_description">Prekoračeno je ograničenje broja znakova: %1$d od %2$d</string><string name="clear_text_end_icon_content_description">Obriši tekst</string><string name="error_icon_content_description">Greška</string><string name="exposed_dropdown_menu_content_description">Prikaži padajući meni</string><string name="icon_content_description">Ikona dijaloga</string><string name="item_view_role_description">Kartica</string><string name="material_clock_toggle_content_description">Izaberite pre podne ili po podne</string><string name="material_hour_selection">Izaberite sat</string><string name="material_hour_suffix">%1$s s</string><string name="material_minute_selection">Izaberite minute</string><string name="material_minute_suffix">%1$s min</string><string name="material_timepicker_am">AM</string><string name="material_timepicker_clock_mode_description">Pređite u režim sata radi unosa vremena.</string><string name="material_timepicker_hour">Sat</string><string name="material_timepicker_minute">Minut</string><string name="material_timepicker_pm">PM</string><string name="material_timepicker_select_time">Izaberite vreme</string><string name="material_timepicker_text_input_mode_description">Pređite u režim unosa teksta radi unosa vremena.</string><string name="mtrl_badge_numberless_content_description">Novo obaveštenje</string><string name="mtrl_chip_close_icon_content_description">Uklonite %1$s</string><string name="mtrl_exceed_max_badge_number_content_description">Novih obaveštenja: više od %1$d</string><string name="mtrl_picker_a11y_next_month">Pređite na sledeći mesec</string><string name="mtrl_picker_a11y_prev_month">Pređite na prethodni mesec</string><string name="mtrl_picker_announce_current_selection">Aktuelni izbor: %1$s</string><string name="mtrl_picker_confirm">@android:string/ok</string><string name="mtrl_picker_date_header_selected">%1$s</string><string name="mtrl_picker_date_header_title">Izaberite datum</string><string name="mtrl_picker_date_header_unselected">Izabrani datum</string><string name="mtrl_picker_day_of_week_column_header">Kolona sa danima: %1$s</string><string name="mtrl_picker_invalid_format">Format je nevažeći.</string><string name="mtrl_picker_invalid_format_example">Primer: %1$s</string><string name="mtrl_picker_invalid_format_use">Koristite: %1$s</string><string name="mtrl_picker_invalid_range">Nevažeći period.</string><string name="mtrl_picker_navigate_to_year_description">Idite na godinu %1$s</string><string name="mtrl_picker_out_of_range">Izvan perioda: %1$s</string><string name="mtrl_picker_range_header_only_end_selected">Datum početka – %1$s</string><string name="mtrl_picker_range_header_only_start_selected">%1$s – Datum završetka</string><string name="mtrl_picker_range_header_selected">%1$s–%2$s</string><string name="mtrl_picker_range_header_title">Izaberite period</string><string name="mtrl_picker_range_header_unselected">Datum početka – Datum završetka</string><string name="mtrl_picker_save">Sačuvaj</string><string name="mtrl_picker_text_input_date_hint">Datum</string><string name="mtrl_picker_text_input_date_range_end_hint">Datum završetka</string><string name="mtrl_picker_text_input_date_range_start_hint">Datum početka</string><string name="mtrl_picker_text_input_day_abbr">d</string><string name="mtrl_picker_text_input_month_abbr">m</string><string name="mtrl_picker_text_input_year_abbr">g</string><string name="mtrl_picker_toggle_to_calendar_input_mode">Pređite na režim unosa u Kalendaru</string><string name="mtrl_picker_toggle_to_day_selection">Dodirnite da biste prešli na izbor dana</string><string name="mtrl_picker_toggle_to_text_input_mode">Pređite na režim unosa teksta</string><string name="mtrl_picker_toggle_to_year_selection">Dodirnite da biste prešli na izbor godine</string><string name="password_toggle_content_description">Prikaži lozinku</string></file><file path="/Users/sisiame/.gradle/caches/transforms-2/files-2.1/10046aad9e73cbf22653afacdcab8838/material-1.4.0/res/values-zu/values-zu.xml" qualifiers="zu"><plurals name="mtrl_badge_content_description">
     <item quantity="one">%d izaziso ezintsha</item>
     <item quantity="other">%d izaziso ezintsha</item>
-  </plurals><string name="bottomsheet_action_expand_halfway">Nweba phakathi</string><string name="character_counter_content_description">Izinhlamvu ezifakiwe ezingu-%1$d zokungu-%2$d</string><string name="character_counter_overflowed_content_description">Umkhawulo wezinhlamvu udlule u-%1$d kokungu-%2$d</string><string name="clear_text_end_icon_content_description">Sula umbhalo</string><string name="error_icon_content_description">Iphutha</string><string name="exposed_dropdown_menu_content_description">Bonisa imenyu yokudonsela phansi</string><string name="icon_content_description">Isithonjana sebhokisi</string><string name="item_view_role_description">Ithebhu</string><string name="material_clock_toggle_content_description">Khetha u-AM noma u-PM</string><string name="material_hour_selection">Khetha ihora</string><string name="material_hour_suffix">%1$s ezimpondweni</string><string name="material_minute_selection">Khetha amaminithi</string><string name="material_minute_suffix">amaminithi angu-%1$s</string><string name="material_timepicker_am">AM</string><string name="material_timepicker_clock_mode_description">Shintshela kumodi yewashi ngokufakwa kwesikhathi.</string><string name="material_timepicker_hour">Ihora</string><string name="material_timepicker_minute">Iminithi</string><string name="material_timepicker_pm">PM</string><string name="material_timepicker_select_time">Khetha isikhathi</string><string name="material_timepicker_text_input_mode_description">Shintshela kumodi yokufaka umbhalo ngokufaka isikhathi.</string><string name="mtrl_badge_numberless_content_description">Isaziso esisha</string><string name="mtrl_chip_close_icon_content_description">Susa i-%1$s</string><string name="mtrl_exceed_max_badge_number_content_description">Izaziso ezintsha ezingaphezu kokungu-%1$d</string><string name="mtrl_picker_a11y_next_month">Shintshela kunyanga elandelayo</string><string name="mtrl_picker_a11y_prev_month">Shintshela kunyanga edlule</string><string name="mtrl_picker_announce_current_selection">Ukukhetha kwamanje: %1$s</string><string name="mtrl_picker_confirm">@android:string/ok</string><string name="mtrl_picker_date_header_selected">%1$s</string><string name="mtrl_picker_date_header_title">Khetha Idethi</string><string name="mtrl_picker_date_header_unselected">Khetha idethi</string><string name="mtrl_picker_day_of_week_column_header">Ikholomu yezinsuku: %1$s</string><string name="mtrl_picker_invalid_format">Ifomethi engavumelekile.</string><string name="mtrl_picker_invalid_format_example">Isibonelo: %1$s</string><string name="mtrl_picker_invalid_format_use">Sebenzisa: %1$s</string><string name="mtrl_picker_invalid_range">Ibanga elingavumelekile.</string><string name="mtrl_picker_navigate_to_year_description">Zulela onyakeni %1$s</string><string name="mtrl_picker_out_of_range">Ikude kubanga: %1$s</string><string name="mtrl_picker_range_header_only_end_selected">Idethi yokuqala – %1$s</string><string name="mtrl_picker_range_header_only_start_selected">%1$s – Idethi yokuphela</string><string name="mtrl_picker_range_header_selected">%1$s – %2$s</string><string name="mtrl_picker_range_header_title">Khetha Ibanga</string><string name="mtrl_picker_range_header_unselected">Idethi yokuqala – Idethi yokuphela</string><string name="mtrl_picker_save">Londoloza</string><string name="mtrl_picker_text_input_date_hint">Idethi</string><string name="mtrl_picker_text_input_date_range_end_hint">Idethi yokuphela</string><string name="mtrl_picker_text_input_date_range_start_hint">Idethi yokuqala</string><string name="mtrl_picker_text_input_day_abbr">d</string><string name="mtrl_picker_text_input_month_abbr">m</string><string name="mtrl_picker_text_input_year_abbr">y</string><string name="mtrl_picker_toggle_to_calendar_input_mode">Shintshela kwimodi yokufaka yekhalenda</string><string name="mtrl_picker_toggle_to_day_selection">Thepha ukuze ushintshe ekukhetheni usuku</string><string name="mtrl_picker_toggle_to_text_input_mode">Shintshela kwimodi yokufaka yombhalo</string><string name="mtrl_picker_toggle_to_year_selection">Thepha ukuze ushintshele ekukhetheni unyaka</string><string name="password_toggle_content_description">Bonisa iphasiwedi</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res"/><source path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/generated/res/rs/debug"/><source path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res"><file name="ic_logo_blue" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/drawable/ic_logo_blue.xml" qualifiers="" type="drawable"/><file name="ic_logo_white" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/drawable/ic_logo_white.xml" qualifiers="" type="drawable"/><file name="ic_outline_mode_comment_24" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/drawable/ic_outline_mode_comment_24.xml" qualifiers="" type="drawable"/><file name="ic_baseline_login_24" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/drawable/ic_baseline_login_24.xml" qualifiers="" type="drawable"/><file path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/values-sw720dp-land/dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file name="activity_login" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/layout/activity_login.xml" qualifiers="" type="layout"/><file name="activity_timeline" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/layout/activity_timeline.xml" qualifiers="" type="layout"/><file name="item_tweet" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/layout/item_tweet.xml" qualifiers="" type="layout"/><file path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/values-sw600dp/dimens.xml" qualifiers="sw600dp-v13"/><file path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/values/colors.xml" qualifiers=""><color name="blue">#1DA1F2</color><color name="black">#14171A</color><color name="gray_dk">#657786</color><color name="gray_lt">#AAB8C2</color><color name="gray_el">#E1E8ED</color><color name="white">#F5F8FA</color></file><file path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+  </plurals><string name="bottomsheet_action_expand_halfway">Nweba phakathi</string><string name="character_counter_content_description">Izinhlamvu ezifakiwe ezingu-%1$d zokungu-%2$d</string><string name="character_counter_overflowed_content_description">Umkhawulo wezinhlamvu udlule u-%1$d kokungu-%2$d</string><string name="clear_text_end_icon_content_description">Sula umbhalo</string><string name="error_icon_content_description">Iphutha</string><string name="exposed_dropdown_menu_content_description">Bonisa imenyu yokudonsela phansi</string><string name="icon_content_description">Isithonjana sebhokisi</string><string name="item_view_role_description">Ithebhu</string><string name="material_clock_toggle_content_description">Khetha u-AM noma u-PM</string><string name="material_hour_selection">Khetha ihora</string><string name="material_hour_suffix">%1$s ezimpondweni</string><string name="material_minute_selection">Khetha amaminithi</string><string name="material_minute_suffix">amaminithi angu-%1$s</string><string name="material_timepicker_am">AM</string><string name="material_timepicker_clock_mode_description">Shintshela kumodi yewashi ngokufakwa kwesikhathi.</string><string name="material_timepicker_hour">Ihora</string><string name="material_timepicker_minute">Iminithi</string><string name="material_timepicker_pm">PM</string><string name="material_timepicker_select_time">Khetha isikhathi</string><string name="material_timepicker_text_input_mode_description">Shintshela kumodi yokufaka umbhalo ngokufaka isikhathi.</string><string name="mtrl_badge_numberless_content_description">Isaziso esisha</string><string name="mtrl_chip_close_icon_content_description">Susa i-%1$s</string><string name="mtrl_exceed_max_badge_number_content_description">Izaziso ezintsha ezingaphezu kokungu-%1$d</string><string name="mtrl_picker_a11y_next_month">Shintshela kunyanga elandelayo</string><string name="mtrl_picker_a11y_prev_month">Shintshela kunyanga edlule</string><string name="mtrl_picker_announce_current_selection">Ukukhetha kwamanje: %1$s</string><string name="mtrl_picker_confirm">@android:string/ok</string><string name="mtrl_picker_date_header_selected">%1$s</string><string name="mtrl_picker_date_header_title">Khetha Idethi</string><string name="mtrl_picker_date_header_unselected">Khetha idethi</string><string name="mtrl_picker_day_of_week_column_header">Ikholomu yezinsuku: %1$s</string><string name="mtrl_picker_invalid_format">Ifomethi engavumelekile.</string><string name="mtrl_picker_invalid_format_example">Isibonelo: %1$s</string><string name="mtrl_picker_invalid_format_use">Sebenzisa: %1$s</string><string name="mtrl_picker_invalid_range">Ibanga elingavumelekile.</string><string name="mtrl_picker_navigate_to_year_description">Zulela onyakeni %1$s</string><string name="mtrl_picker_out_of_range">Ikude kubanga: %1$s</string><string name="mtrl_picker_range_header_only_end_selected">Idethi yokuqala – %1$s</string><string name="mtrl_picker_range_header_only_start_selected">%1$s – Idethi yokuphela</string><string name="mtrl_picker_range_header_selected">%1$s – %2$s</string><string name="mtrl_picker_range_header_title">Khetha Ibanga</string><string name="mtrl_picker_range_header_unselected">Idethi yokuqala – Idethi yokuphela</string><string name="mtrl_picker_save">Londoloza</string><string name="mtrl_picker_text_input_date_hint">Idethi</string><string name="mtrl_picker_text_input_date_range_end_hint">Idethi yokuphela</string><string name="mtrl_picker_text_input_date_range_start_hint">Idethi yokuqala</string><string name="mtrl_picker_text_input_day_abbr">d</string><string name="mtrl_picker_text_input_month_abbr">m</string><string name="mtrl_picker_text_input_year_abbr">y</string><string name="mtrl_picker_toggle_to_calendar_input_mode">Shintshela kwimodi yokufaka yekhalenda</string><string name="mtrl_picker_toggle_to_day_selection">Thepha ukuze ushintshe ekukhetheni usuku</string><string name="mtrl_picker_toggle_to_text_input_mode">Shintshela kwimodi yokufaka yombhalo</string><string name="mtrl_picker_toggle_to_year_selection">Thepha ukuze ushintshele ekukhetheni unyaka</string><string name="password_toggle_content_description">Bonisa iphasiwedi</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res"/><source path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/generated/res/rs/debug"/><source path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res"><file name="ic_logo_blue" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/drawable/ic_logo_blue.xml" qualifiers="" type="drawable"/><file name="ic_logo_white" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/drawable/ic_logo_white.xml" qualifiers="" type="drawable"/><file name="ic_outline_mode_comment_24" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/drawable/ic_outline_mode_comment_24.xml" qualifiers="" type="drawable"/><file name="ic_baseline_login_24" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/drawable/ic_baseline_login_24.xml" qualifiers="" type="drawable"/><file path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/values-sw720dp-land/dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file name="activity_login" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/layout/activity_login.xml" qualifiers="" type="layout"/><file name="activity_timeline" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/layout/activity_timeline.xml" qualifiers="" type="layout"/><file name="item_tweet" path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/layout/item_tweet.xml" qualifiers="" type="layout"/><file path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/values-sw600dp/dimens.xml" qualifiers="sw600dp-v13"/><file path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/values/colors.xml" qualifiers=""><color name="twitter_blue">#1D9BF0</color><color name="black">#14171A</color><color name="gray_dk">#657786</color><color name="gray_lt">#AAB8C2</color><color name="gray_el">#E1E8ED</color><color name="white">#F5F8FA</color><color name="red">#F91880</color></file><file path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="/Users/sisiame/Documents/GitHub/Twitter-Client-MPK/Twitter/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
         
     </style><style name="AppTheme" parent="AppBaseTheme">
         <item name="colorPrimary">@color/white</item>
-        <item name="colorAccent">@color/blue</item>
+        <item name="colorAccent">@color/twitter_blue</item>
         <item name="fontFamily">@font/helvetica</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:statusBarColor">@color/white</item>
@@ -8858,6 +8955,37 @@
         
         <attr name="android:inflatedId"/>
         <attr name="android:id"/>
+    </declare-styleable><declare-styleable name="GridLayout">
+
+        
+
+
+        
+        <attr name="orientation">
+
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="rowCount"/>
+        
+        <attr format="integer" name="columnCount"/>
+        
+        <attr format="boolean" name="useDefaultMargins"/>
+        
+        <attr name="alignmentMode">
+
+            
+            <enum name="alignBounds" value="0"/>
+            
+            <enum name="alignMargins" value="1"/>
+        </attr>
+        
+        <attr format="boolean" name="rowOrderPreserved"/>
+        
+        <attr format="boolean" name="columnOrderPreserved"/>
     </declare-styleable><declare-styleable name="MotionLabel">
         <attr name="android:text"/>
         <attr name="android:textColor"/>
@@ -11225,6 +11353,72 @@
         <attr format="reference" name="theme"/>
         
         <attr name="android:theme"/>
+    </declare-styleable><declare-styleable name="GridLayout_Layout">
+
+        
+
+
+        
+
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        
+        <attr name="android:layout_margin"/>
+        
+        <attr name="android:layout_marginLeft"/>
+        
+        <attr name="android:layout_marginTop"/>
+        
+        <attr name="android:layout_marginRight"/>
+        
+        <attr name="android:layout_marginBottom"/>
+
+        
+
+        
+        <attr format="integer" name="layout_row"/>
+        
+        <attr format="integer" min="1" name="layout_rowSpan"/>
+        
+        <attr format="float" name="layout_rowWeight"/>
+        
+        <attr format="integer" name="layout_column"/>
+        
+        <attr format="integer" min="1" name="layout_columnSpan"/>
+        
+        <attr format="float" name="layout_columnWeight"/>
+        
+        <attr name="layout_gravity">
+
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
     </declare-styleable><declare-styleable name="RangeSlider">
     <attr format="reference" name="values"/>
 

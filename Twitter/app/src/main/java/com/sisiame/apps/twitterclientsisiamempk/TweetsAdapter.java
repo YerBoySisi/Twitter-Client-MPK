@@ -45,26 +45,17 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         return tweets.size();
     }
 
-    // Clean all elements of the recycler
-    public void clear() {
-        tweets.clear();
-        notifyDataSetChanged();
-    }
-
-    // Add a list of items
-    public void addAll(List<Tweet> list) {
-        tweets.addAll(list);
-        notifyDataSetChanged();
-    }
-
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        ImageView ivProfileImage;
+        ImageView ivProfileImage, ivMedia, ivMedia2, ivMedia3;
         TextView tvBody, tvName, tvHandle, tvCreatedAt, tvComments, tvRetweets, tvLikes;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             ivProfileImage = itemView.findViewById(R.id.ivProfileImage);
+            ivMedia = itemView.findViewById(R.id.ivMedia);
+            ivMedia2 = itemView.findViewById(R.id.ivMedia2);
+            ivMedia3 = itemView.findViewById(R.id.ivMedia3);
             tvBody = itemView.findViewById(R.id.tvBody);
             tvName = itemView.findViewById(R.id.tvName);
             tvHandle = itemView.findViewById(R.id.tvHandle);
@@ -87,9 +78,73 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
                 .circleCrop()
                 .into(ivProfileImage);
 
+            loadAllMedia(tweet);
+
 //          tvComments.setText(tweet.comments);
             tvRetweets.setText(tweet.retweets);
             tvLikes.setText(tweet.likes);
+        }
+
+        private void loadAllMedia(Tweet tweet) {
+
+            if(tweet.mediaURLs[0] != null) {
+
+                if(tweet.mediaURLs[0].contains(".gif")) {
+
+                    Glide
+                        .with(context)
+                        .asGif()
+                        .load(tweet.mediaURLs[0])
+                        .fitCenter()
+                        .into(ivMedia);
+
+                    return;
+                }
+
+                if (tweet.mediaURLs[1] == null) {
+
+                    Glide
+                        .with(context)
+                        .load(tweet.mediaURLs[0])
+                        .fitCenter()
+                        .into(ivMedia);
+
+                } else {
+
+                    Glide
+                        .with(context)
+                        .load(tweet.mediaURLs[0])
+                        .centerCrop()
+                        .into(ivMedia);
+
+                    Glide
+                        .with(context)
+                        .load(tweet.mediaURLs[1])
+                        .centerCrop()
+                        .into(ivMedia2);
+
+                    ((ViewGroup.MarginLayoutParams)ivMedia.getLayoutParams()).setMarginEnd(2);
+                    itemView.findViewById(R.id.containerExtendedMedia).setVisibility(View.VISIBLE);
+
+                    if(tweet.mediaURLs[2] != null) {
+
+                        Glide
+                                .with(context)
+                                .load(tweet.mediaURLs[2])
+                                .centerCrop()
+                                .into(ivMedia3);
+
+                        ((ViewGroup.MarginLayoutParams)ivMedia2.getLayoutParams()).bottomMargin = 2;
+                        ivMedia3.setVisibility(View.VISIBLE);
+
+                    }
+
+                }
+
+                itemView.findViewById(R.id.containerMedia).setVisibility(View.VISIBLE);
+
+            }
+
         }
     }
 

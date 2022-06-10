@@ -56,7 +56,7 @@ public class TimelineActivity extends AppCompatActivity {
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(rvTweets.getContext(),
                 LinearLayoutManager.VERTICAL);
         rvTweets.addItemDecoration(dividerItemDecoration);
-
+        /*
         rvTweets.addOnScrollListener(new EndlessRecyclerViewScrollListener(layoutManager) {
             @Override
             public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
@@ -65,7 +65,7 @@ public class TimelineActivity extends AppCompatActivity {
                 populateHomeTimeline(0, 0);
             }
         });
-
+        */
         // Lookup the swipe container view
         swipeContainer = findViewById(R.id.swipeContainer);
         // Setup refresh listener which triggers new data loading
@@ -135,6 +135,10 @@ public class TimelineActivity extends AppCompatActivity {
             }
 
         });
+
+    }
+
+    public void likeTweet(View view) {
 
     }
 
