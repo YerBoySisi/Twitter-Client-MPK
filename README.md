@@ -13,13 +13,13 @@ The following **required** functionality is completed:
   * [x] User is displayed the username, name, and body for each tweet
   * [x] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
 * [ ] User can **compose and post a new tweet**
-  * [ ] User can click a “Compose” icon in the Action Bar on the top right
+  * [x] ~~User can click a “Compose” icon in the Action Bar on the top right~~
   * [ ] User can then enter a new tweet and post this to Twitter
   * [ ] User is taken back to home timeline with **new tweet visible** in timeline
   * [ ] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
 * [ ] User can **see a counter with total number of characters left for tweet** on compose tweet page
 * [x] User can **pull down to refresh tweets timeline**
-* [ ] User can **see embedded image media within a tweet** on list or detail view.
+* [x] User can **see embedded image media within a tweet** on list or detail view.
 
 The following **optional** features are implemented:
 
@@ -30,29 +30,37 @@ The following **optional** features are implemented:
 * [ ] User can tap a tweet to **open a detailed tweet view**
   * [ ] User can **take favorite (and unfavorite) or retweet** actions on a tweet
 * [x] User can view more tweets as they scroll with infinite pagination
-* [ ] Compose tweet functionality is built using modal overlay
+* [x] ~~Compose tweet functionality is built using modal overlay~~
 * [x] User can **click a link within a tweet body** on tweet details view. The click will launch the web browser with relevant page opened.
 * [x] Replace all icon drawables and other static image assets with [vector drawables](http://guides.codepath.org/android/Drawables#vector-drawables) where appropriate.
 * [ ] User can view following / followers list through any profile they view.
 * [ ] Use the View Binding library to reduce view boilerplate.
-* [ ] On the Twitter timeline, apply scrolling effects such as [hiding/showing the toolbar](http://guides.codepath.org/android/Using-the-App-ToolBar#reacting-to-scroll) by implementing [CoordinatorLayout](http://guides.codepath.org/android/Handling-Scrolls-with-CoordinatorLayout#responding-to-scroll-events).
+* [x] On the Twitter timeline, apply scrolling effects such as [hiding/showing the toolbar](http://guides.codepath.org/android/Using-the-App-ToolBar#reacting-to-scroll) by implementing [CoordinatorLayout](http://guides.codepath.org/android/Handling-Scrolls-with-CoordinatorLayout#responding-to-scroll-events).
 * [ ] User can **open the twitter app offline and see last loaded tweets**. Persisted in SQLite tweets are refreshed on every application launch. While "live data" is displayed when app can get it from Twitter API, it is also saved for use in offline mode.
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
+  * [ ] User can **see a circular progress indicator representing total number of characters left for tweet** on compose tweet page
+  * [ ] User can **take favorite (and unfavorite) or retweet** actions on a tweet FROM THE TIMELINE ACTIVITY (as opposed to only the Detail Activity)
+  * [ ] Compose tweet functionality is built using a fragment
+  * [x] The compose icon is built using a **floating action button**
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.ibb.co/hffKBr7/Screenshot-20220610-090734-2.png' title='Screenshot of App' width='400' alt='App Screenshot' />
 
-GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- Promote use of fragments instead of modal overlay for this project
+  - Make the use of a fragment for posting required
+  - Avoid making the modal overlay a stretch feature entirely, or make it a purely optional feature (students/interns will see this stretch feature and think it is a necessity to replace the use of fragmentation rather than a stylistic choice)
+- Update Twitter branded resource files, or have the students/interns go find the resources themselves
+- Explain what is meant by `reduce view boilerplate` and give a more extensive example of why this is helpful; students/interns may not understand the significance of the View Binding library
+- 
 
 ## Open-source libraries used
 
@@ -61,7 +69,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Sisiame B. Sakasamo]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
